@@ -1,0 +1,4 @@
+sounddevice
+soundfile
+PySimpleGUI
+numpy
