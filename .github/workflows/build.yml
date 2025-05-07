@@ -28,7 +28,7 @@ jobs:
           pyinstaller --onefile --windowed audio_recorder_gui.py
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v3.1.3
         with:
           name: audio_recorder
           path: dist/audio_recorder_gui.exe
